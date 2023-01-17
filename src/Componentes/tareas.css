@@ -1,0 +1,89 @@
+.todoContainer{
+    width: 500px;
+    margin: 100px auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.todoCreateForm{
+    display: flex;
+    gap: 5px;
+}
+
+.todoInput{
+    flex-grow: 1;
+    width: 100%;
+    padding: 10px;
+    border-radius: 3px;
+    border: solid 1px aquamarine;
+}
+
+.buttonCreate{
+    border: 1px solid antiquewhite;
+    border-radius: 4px;
+    background-color: greenyellow;
+    color: white;
+    padding: 12px;
+    cursor: pointer;
+    font-size: 23px;
+    font-weight: bold;
+}
+
+.todosContainer{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    margin: 10px;
+}
+
+.tareas{
+    padding: 5px;
+    background: white;
+    border-radius: 3px;
+    border: solid 1px aquamarine;
+}
+
+.tareasInput{
+    display: flex;
+    justify-content: space-between;
+}
+
+.todotitle{
+    flex: 1;
+    font-size: 22px;
+}
+
+.todoUpdateForm, todoInfo{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.btn-edit{
+    border: 1px solid lawngreen;
+    border-radius: 3px;
+    background-color: white;
+    color: lawngreen;
+    padding: 12px;
+    cursor: pointer;
+    margin: 10px;
+}
+
+.btn-delete{
+    border: 1px solid lightcoral;
+    border-radius: 3px;
+    background-color: white;
+    color: lightcoral;
+    padding: 12px;
+    cursor: pointer;
+    margin: 10px;
+}
+
+.button-update{
+    border: 1px solid goldenrod;
+    border-radius: 3px;
+    background-color: white;
+    color: goldenrod;
+    padding: 12px;
+    cursor: pointer;
+}
